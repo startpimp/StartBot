@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html class="html" lang="fr">
+<head>
+	<title>
+		Paramètres
+	</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="settings.css">
+	<link rel="icon" type="image/png" href="img/settings.png">
+</head>
+<header class="tete">
+	<div class="block1">
+		<div class="bl1">
+			<a href="pagePrincipal.html">
+				<img src="img/settings.png" width="75" class="img">
+			</a>
+		</div>
+		<div class="bl2">
+			<h1 class="title">
+				Paramètres
+			</h1>
+			<p class="description">
+				Vous trouver ce site un peut fade alors changer le à votre goût !
+			</p>
+		</div>
+	</div>
+	<div class="block3">
+		<select class="select" name="language">
+			<option class="fr">Français</option>
+			<option class="en">English</option>
+			<option class="de">Deutsch</option>
+			<option class="es">Español</option>
+		</select>
+	</div>
+</header>
+<body>
+	<div class="block2">
+		<div class="bl2">
+			<nav class="nav">
+				<ul>
+					<li class="profil">
+						<img src="img/start_bot.png" width="25px" height="25px">
+						<a href="pagePrincipal.html" class="txt1">
+							Home
+						</a>
+						<script type="text/javascript" src="settings.js"></script>
+					</li>
+					<li class="profil">
+						<img src="img/profil.png" width="25px" height="25px">
+						<a href="profil.html" class="txt2">
+							Profil
+						</a>
+						<script type="text/javascript" src="settings.js"></script>
+					</li>
+					<li class="servers">
+						<img src="img/servers.png" width="25px" height="25px">
+						<a href="" class="txt3">
+							Serveurs
+						</a>
+						<script type="text/javascript" src="settings.js"></script>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="bl3">
+			<div class="bl4">
+				<form>
+					Message de join :<br>
+					<br>
+					<textarea type="text" name="join_msg" style="width: 950px; height: 16px;">Bienvenue (user.getMention) dans (guild.getName) !!</textarea>
+					<br>
+					Message en privé :<br>
+					<br>
+					<select name="Oui">
+						<option value="yes" class="oui">
+							Oui
+						</option>
+						<option value="no" class="non">
+							Non
+						</option>
+					</select>
+				</form>
+			</div>
+			<div class="bl5">
+				<form>
+					Message de leave :<br>
+					<br>
+					<textarea type="text" name="join_msg" style="width: 950px; height: 16px;">Au revoir (user.getName) !!</textarea>
+					<br>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+<footer>
+	
+</footer>
+</html>
+<script type="text/javascript" src="settings.js"></script>

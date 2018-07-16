@@ -1,0 +1,95 @@
+header.tete {
+	background-color: #2E86C1;
+	width: 100%;
+	height: 100px;
+}
+header.tete div.div1 div.div12 h1.title {
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+header.tete div.div1 div {
+	display: inline-block;
+}
+body div.div2 div.div21 nav.navigation ul li {
+	list-style-type: none;
+	margin: 10px;
+}
+body div.div2 div {
+	display: inline-block;
+}
+body {
+	background-color: #3498DB;
+}
+body div.div2 div.div21 {
+	background-color: #2E86C1;
+	height: 90%;
+	margin-top: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+	padding-bottom: 5px;
+}
+header.tete div.div1 div.div11 img.img {
+	margin: 5px;
+	margin-left: 20px;
+	margin-top: 12.5px;
+}
+body div.div2 div.div21 nav.navigation ul li a {
+	font-family: sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+	background-color: #2E86C1;
+	padding: 5px;
+	border-radius: 90px;
+	transition: 0.5s all;
+}
+footer {
+	background-color: #2E86C1;
+	width: 100%;
+	height: 50px;
+}
+header.tete div.div1 div.div12 p.description {
+	color: white;
+	font-size: 10px;
+	font-family: sans-serif;
+}
+body div.div2 div.div21 nav.navigation ul li a:hover {
+	background-color: #3498DB;
+	border-radius: 90px;
+	transition: 0.5s all;
+}
+body div.div2 div.div21 nav.navigation ul li img {
+	align-items: center;
+}
+body div.div2 div.div21 nav.navigation ul li {
+	height: 20px;
+}
+body div.div2 div.div22 a {
+	text-decoration: none;
+	font-family: sans-serif;
+	text-align: unset;
+	background-color: #3498DB;
+	color: white;
+	font-size: 10px;
+	padding: 5px;
+	border-radius: 90px;
+	margin-top: -100px;
+	transition: 0.5s all;
+}
+body div.div2 div.div22 a:hover {
+	background-color: #2E86C1;
+	border-radius: 90px;
+	transition: 0.5s all;
+}
+footer {
+	margin-top: 100%;
+	border-radius: 90px;
+}
+body {
+	margin-top: 20px;
+	border-radius: 90px;
+}
+header {
+	border-radius: 50px;
+}
